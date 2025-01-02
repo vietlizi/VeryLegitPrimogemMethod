@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #45a049;
+}
+
+.small-text {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+.hover-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    position: relative;
+    display: none;
+}
+
+.hover-btn:hover {
+    background-color: #e53935;
+}
+
+.hover-options {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hover-options button {
+    width: 100%;
+    padding: 8px;
+    background-color: #555;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+
+.hover-options button:hover {
+    background-color: #666;
+}
+
+.hover-btn:hover + .hover-options {
+    display: block;
+}
+
+#prank-message {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#prank-message a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+#download-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.download-box-content p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.download-options button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.download-options button:hover {
+    background-color: #e53935;
+}
+
+.footer {
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    margin-top: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.understrike {
+    text-decoration: underline line-through;
+}
